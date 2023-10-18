@@ -120,9 +120,11 @@ body {
 }
 
 .mid-top .content .container {
+    /* border: #3882fc 3px solid; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-top: 20px;
     align-items: center;
     flex-basis: 150px;
 }
@@ -193,9 +195,10 @@ body {
     display: flex;
     width: 900px;
     flex: 0 1 150px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     color: #e5e7eb;
+    gap: 60px;
 }
 
 .bottom .right {
@@ -206,6 +209,21 @@ body {
     font-weight: bold;
 }
 
+.bottom .left {
+    /* border: #1f2937 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottom .left h3 {
+    font-size: 26px;
+    margin: 0px;
+}
+
+.bottom .left p {
+    margin: 0px;
+}
 
 .bottom .footer {
     /* border: 3px orange solid; */
