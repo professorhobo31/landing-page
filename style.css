@@ -89,6 +89,11 @@ body {
     height: auto;
 }
 
+.top-content .right img {
+    width: 550px;
+    height: auto;
+}
+
 .mid-top {
     border: 3px green solid;
     display: flex;
