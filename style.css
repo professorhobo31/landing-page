@@ -132,8 +132,20 @@ body {
 .mid-top .content .card {
     height: 150px;
     width: 150px;
+    /* border: #3882fc 4px solid;
+    border-radius: 12px; */
+}
+
+.mid-top .content img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
     border: #3882fc 4px solid;
     border-radius: 12px;
+}
+
+#first-image {
+    object-position: -50px 0;
 }
 
 .mid-top .content p {
